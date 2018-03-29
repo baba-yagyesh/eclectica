@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+            eclectica reviews
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <style>
+            .details{
+                font-style: italic;
+                font-size: 150%;
+                color: indianred;
+            }
+            .input-name{
+                height: 25px;
+                width: 180px;
+                font-size: 22px;
+            }
+            .comments{
+                font-size: 18px;
+                font-style: initial;
+            }
+        </style>
+        <center>
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a class="active" href="reviews.html">Reviews</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <h2 style="font:oblique">
+                GIVE US YOUR PRECIOUS FEEDBACK HERE:
+            </h2>
+            <br>
+            <p class="details">
+                ENTER YOUR NAME:
+            </p>
+            <input type="text" name="Name" value="Name" maxlength="17" class="input-name" /><br>
+            <p class="details">
+                ENTER YOUR FEEDBACK HERE:
+            </p>
+            <textarea rows="5" cols="50" class="comments">Comments</textarea>
+            <br><br>
+            <input type="submit" name="SUBMIT" onclick=alpha() /><br>
+            <footer>
+                <p class="p">CONNECT WITH US ON SOCIAL MEDIA:
+                    <a href="https://www.facebook.com/eclecticaTISL/?ti=as" target="_blank">
+                        <img src="images/fb.png" class="imgfb">
+                    </a>
+                    <a href="https://www.instagram.com/eclecticatisl/" target="_blank">
+                        <img src="images/insta.png" class="imgfb">
+                    </a>
+                    <a href="https://twitter.com/Eclectica_TISL" target="_blank">
+                        <img src="images/twitter.png" class="imgfb">
+                    </a>
+                </p>
+            </footer>
+        </center>
+        <script>
+            function alpha()
+            {
+                alert('THANKS FOR YOUR FEEDBACK');
+                window.location.href='index.html';
+            }
+        </script>
+    </body>
+</html>
